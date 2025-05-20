@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amir Sakline | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Amir Sakline">
+    <h1>Amir Sakline</h1>
+    <p>Mobile App Developer | Programmer | Graphics Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a dedicated and enthusiastic android app developer with a strong foundation in computer science and a passion for building interactive, user-friendly apps. I specialize in creating apps using java, kotlin . My goal is to create impactful digital experiences that are visually appealing and functionally robust.</p>
+      <p>I have worked on multiple projects ranging from static portfolio sites to dynamic applications. I'm a continuous learner who thrives in collaborative environments and always seeks to improve my skills and stay up-to-date with industry trends.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Robotic Arm</h3>
+          <p>Designed and developed a functional robotic arm using Arduino microcontroller as part of a university project. Integrated servo motors for precise movement control and implemented basic automation and manual control through programming. The project demonstrated practical applications in automation, robotics, and embedded systems.</p>
+        </div>
+        <div class="card">
+          <h3>Pet Adoption App</h3>
+          <p>A web application developed using Java for adopt pets through mobile app</p>
+        </div>
+        <div class="card">
+          <h3>Newspaper App</h3>
+          <p>A Newspaper mobile application by which user can find many many newspaper and read through a single app</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">SQL</div>
+        <div class="card">Responsive Design</div>
+        <div class="card">Graphics Designing</div>
+        <div class="card">Mobile app developing</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> amirtonmoy3@gmail.com</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amir-sakline-4a6bb6334/" target="_blank">https://www.linkedin.com/in/amir-sakline-4a6bb6334/</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/sakline" target="_blank">github.com/sakline</a></p>
+      <p><strong>Location:</strong> Barishal, Bangladesh</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Amir Sakline. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
